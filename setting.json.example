@@ -1,0 +1,12 @@
+Create a file called settings.json inside your .vscode folder, and paste this in:
+
+{
+     "python.defaultInterpreterPath": "C:\\Users\\YOUR_USERNAME\\anaconda3\\envs\\YOUR_ENV_NAME\\python.exe",
+     "terminal.integrated.defaultProfile.windows": "PowerShell",
+     "terminal.integrated.profiles.windows": {
+       "PowerShell": {
+         "source": "PowerShell",
+         "args": ["-NoExit", "-Command", "conda activate bmad-python"]
+       }
+     }
+   }

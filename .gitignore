@@ -1,0 +1,38 @@
+# BMAD private
+.bmad-loop/runs/
+.bmad-loop/cache/
+.bmad-loop/policy.toml
+_bmad/custom/config.user.toml
+_bmad/config.user.toml
+
+# Secrets & credentials
+.env
+.env.local
+.env.*.local
+setting.json
+setting.*.json
+
+# IDE & OS
+.vscode/settings.json
+.vscode/extensions.json
+.tools/
+.agents/
+.DS_Store
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Build & logs
+_bmad-output/
+*.log
+*.tmp
+
+# Personal/working
+bmad-youtube/
+design-artifacts/
+*.local

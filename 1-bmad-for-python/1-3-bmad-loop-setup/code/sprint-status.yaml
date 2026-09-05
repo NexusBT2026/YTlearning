@@ -1,0 +1,129 @@
+# Sprint Status Log - BMAD Project Tracking
+# 
+# This file is automatically created and updated by BMAD workflows.
+# It tracks all planning, design, and development decisions made during your project.
+#
+# Location: _bmad-output/sprint-status.yaml
+# Created by: bmad-loop-setup skill
+# Last updated: [automatically updated by BMAD]
+
+# Project metadata
+project:
+  name: "Your Project Name"
+  description: "Brief description of your project"
+  created_date: 2026-01-01
+  version: "0.1.0"
+
+# Sprint tracking - organized by episode/sprint
+sprints:
+  sprint_1:
+    episode: "1-1"
+    title: "BMAD Introduction"
+    status: completed
+    started: 2026-01-01
+    completed: 2026-01-02
+    
+  sprint_2:
+    episode: "1-2"
+    title: "BMAD Setup"
+    status: completed
+    started: 2026-01-02
+    completed: 2026-01-03
+    
+  sprint_3:
+    episode: "1-3"
+    title: "BMAD Loop Setup"
+    status: in_progress
+    started: 2026-01-03
+    completed: null
+
+# Planning artifacts - PRD, architecture, design documents
+planning:
+  product_brief:
+    status: pending
+    file: "_bmad-output/product-brief.md"
+    created: null
+    
+  architecture:
+    status: pending
+    file: "_bmad-output/architecture.md"
+    created: null
+
+# Development tasks - stories and epics
+development:
+  epics:
+    epic_1:
+      title: "BMAD Fundamentals"
+      status: in_progress
+      stories: 3
+      completed_stories: 2
+      
+  stories:
+    story_1_1:
+      title: "What is BMAD"
+      epic: epic_1
+      status: completed
+      
+    story_1_2:
+      title: "BMAD Setup"
+      epic: epic_1
+      status: completed
+      
+    story_1_3:
+      title: "BMAD Loop Setup"
+      epic: epic_1
+      status: in_progress
+
+# Review gates - code quality, testing, requirements
+quality_gates:
+  linting:
+    status: pending
+    tool: pylint
+    
+  testing:
+    status: pending
+    tool: pytest
+    
+  code_review:
+    status: pending
+    reviewer: bmad-agent-dev
+
+# Decisions - important project choices and rationale
+decisions:
+  decision_1:
+    date: 2026-01-01
+    title: "Use BMAD for project automation"
+    rationale: "Integrates with VS Code and Python workflows"
+    status: approved
+    
+  decision_2:
+    date: 2026-01-02
+    title: "Use uv for Python package management"
+    rationale: "Fast, reliable, works well with BMAD"
+    status: approved
+
+# Risks and blockers
+risks:
+  - title: "VS Code not configured with BMAD Agent"
+    severity: high
+    status: open
+    
+blockers:
+  - title: "None currently"
+    resolved: true
+    
+# Next steps
+next_steps:
+  - "Complete Story 1-3 BMAD Loop Setup"
+  - "Run bmad-help skill to confirm loop is active"
+  - "Prepare for Story 1-4: Product Brief Planning"
+
+# Notes section - for tracking important context
+notes: |
+  BMAD Loop provides automation orchestration for development workflows.
+  
+  Key points:
+  - Skills run in VS Code Agent Chat (Ctrl+Shift+P)
+  - Terminal is only for commands like `uv run workflow_test.py`
+  - This file is updated automatically by BMAD workflows
+  - Check this file regularly to track project progress
