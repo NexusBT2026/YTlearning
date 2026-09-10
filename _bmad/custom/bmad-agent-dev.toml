@@ -1,0 +1,14 @@
+# Amelia (bmad-agent-dev) Customization for YTlearning
+# This tells Amelia where all story content lives and how to reference it
+
+[agent]
+persistent_facts = [
+  "CRITICAL: All story content originates from bmad-youtube/ folder structure",
+  "Stories are pre-produced scripts in bmad-youtube/{series-name}/ before being tracked in sprint-status.yaml",
+  "Story naming: convert file/folder name to kebab-case, e.g. '2-1-reusable-API.md' → story key '2-1-reusable-api'",
+  "When executing any story, read from bmad-youtube source first - never create duplicate files",
+  "Content locations: scripts in bmad-youtube/{series}/{story-key}/, code in bmad-youtube/{series}/{story-key}/code/, assets in bmad-youtube/{series}/{story-key}/assets/",
+  "Status meanings: 'ready-for-dev' = file exists in bmad-youtube and is in sprint-status, 'in-progress' = currently recording, 'done' = published",
+  "Series directories: 1-bmad-for-python (Epic 1, complete), 2-real-projects (Epic 2, 30 episodes ready), future series follow same pattern",
+  "Future instruction: as new series folders appear in bmad-youtube/, automatically register stories in sprint-status.yaml with ready-for-dev status"
+]

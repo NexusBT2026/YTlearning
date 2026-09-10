@@ -815,7 +815,7 @@ class StoryExecutor:
     def load_story_data(self) -> bool:
         """Load story metadata from sprint-status.yaml development_status"""
         try:
-            with open(self.sprint_status_file, 'r') as f:
+            with open(self.sprint_status_file, 'r', encoding='utf-8') as f:
                 data = yaml.safe_load(f)
                 dev_status = data.get('development_status', {})
                 
@@ -989,7 +989,7 @@ class StoryExecutor:
         """Save execution report to YAML file"""
         try:
             report_file = self.execution_artifacts_dir / f"story-{self.story_id}-execution-report.yaml"
-            with open(report_file, 'w') as f:
+            with open(report_file, 'w', encoding='utf-8') as f:
                 yaml.dump(self.story_report, f, default_flow_style=False, sort_keys=False)
             print(f"\n✅ Report saved: {report_file.name}")
             return True
@@ -1049,7 +1049,7 @@ class StoryExecutor:
 """
             
             checklist_file = self.execution_artifacts_dir / f"story-{self.story_id}-production-checklist.md"
-            with open(checklist_file, 'w') as f:
+            with open(checklist_file, 'w', encoding='utf-8') as f:
                 f.write(checklist_content)
             
             print(f"✅ Checklist saved: {checklist_file.name}")
@@ -1085,7 +1085,7 @@ class EpicExecutor:
     def load_epic_data(self) -> bool:
         """Load all stories for this epic from sprint-status.yaml"""
         try:
-            with open(self.sprint_status_file, 'r') as f:
+            with open(self.sprint_status_file, 'r', encoding='utf-8') as f:
                 data = yaml.safe_load(f)
                 dev_status = data.get('development_status', {})
                 
@@ -1231,7 +1231,7 @@ class EpicExecutor:
         """Save epic execution report"""
         try:
             report_file = self.execution_artifacts_dir / f"epic-{self.epic_num}-execution-report.yaml"
-            with open(report_file, 'w') as f:
+            with open(report_file, 'w', encoding='utf-8') as f:
                 yaml.dump(self.execution_report, f, default_flow_style=False, sort_keys=False)
             print(f"✅ Report saved: {report_file.name}")
             return True
