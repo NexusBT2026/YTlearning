@@ -20,6 +20,15 @@
 - [x] VS Code: .env file with placeholder
 
 ## Metadata
+**Title:** Real Projects — Episode 2-1 — Building a Reusable REST API Client in Python
+
+**Description:**
+
+In this video, we build the first module of the Real Projects series: a reusable REST API Client in Python.
+This client handles GET and POST requests, JSON parsing, error handling, logging, and environment variables.
+
+🔗 Links:
+- GitHub: [GitHub Link](https://github.com/NexusBT2026/YTlearning)
 
 ### YouTube Timestamps
 
@@ -30,10 +39,6 @@
 - 04:45 – Testing the client
 - 05:20 – Adding environment variables
 - 06:18 – Recap & next video
-
-
-### Video Description
-Build the first module of the Real Projects series: a reusable REST API Client in Python. This client handles GET and POST requests, JSON parsing, error handling, logging, and environment variables.
 
 ### Keywords
 Python, REST API, API Client, Real Projects, Software Engineering, Coding Tutorial, HTTP Requests, Environment Variables
