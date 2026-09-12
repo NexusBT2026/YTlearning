@@ -23,9 +23,58 @@ Learn how to build software using AI agents and structured workflows.
 | 1-9 | Sprint Planning | Roadmap planning | 33-34 min. |
 | 1-10 | Execution Phase | Sprint workflow (Sprint 1) | 15-16 min. |
 | 1-11 | Execution Phase - Final | Sprint workflow (Sprint 2) | 15-16 min. |
+| 1-12 | Python Version Upgrade | Environment update | 8-9 min. |
 
-**▶️ Watch on YouTube:** [BMAD for Python Playlist](https://www.youtube.com/watch?v=2xA84EbaC3Y&list=PLR0W-0LC9wyE)
+**▶️ Watch on YouTube:** [BMAD for Python Playlist](https://www.youtube.com/playlist?list=PLR0W-0LC9wyE)
 
+### 🎬 Series 2: Real Projects (30 Episodes) 🚧 In Progress
+
+Learn how to build a real bot with our real projects channel. Starting with some examples before we head to real implementation and dashboard building. 
+To finally have a full bot with logging, error handling, and full data source integration.
+
+| Episode | Title | Focus | Duration |
+|---------|-------|-------|----------|
+| 2-1 | Reusable API | Building reusable API modules | 6-7 min. |
+| 2-2 | Websocket Client | Building a websocket client | 7-8 min. |
+| 2-3 | Data Collector | Building a data collector module | 🚧 In Progress |
+| 2-4 | Strategy Engine | Implementing trading strategies | 🚧 In Progress |
+| 2-5 | Building a Real-Time Python Dashboard | Real-time data visualization | 🚧 In Progress |
+| 2-6 | Automation Engine | Automating tasks and workflows | 🚧 In Progress |
+| 2-7 | Notification System | Setting up notifications | 🚧 In Progress |
+| 2-8 | Logging System | Implementing logging | 🚧 In Progress |
+| 2-9 | Orchestrator | Coordinating modules | 🚧 In Progress |
+| 2-10 | Deployment Module | Deploying the bot | 🚧 In Progress |
+| 2-11 | Monitoring Module | Monitoring bot performance | 🚧 In Progress |
+| 2-12 | Backup Module | Setting up backups | 🚧 In Progress |
+| 2-13 | Recovery Module | Implementing recovery procedures | 🚧 In Progress |
+| 2-14 | Configuration Manager | Managing configurations | 🚧 In Progress |
+| 2-15 | Settings Dashboard | User settings interface | 🚧 In Progress |
+| 2-16 | Control Center | Central control interface | 🚧 In Progress |
+| 2-17 | System Integrator | Integrating system components | 🚧 In Progress |
+| 2-18 | Final Assembly | Assembling the final bot | 🚧 In Progress |
+| 2-19 | Installer | Creating an installer | 🚧 In Progress |
+| 2-20 | Launcher | Launching the bot | 🚧 In Progress |
+| 2-21 | Updater | Implementing update mechanism | 🚧 In Progress |
+| 2-22 | Version Manager | Managing versions | 🚧 In Progress |
+| 2-23 | Release Manager | Handling releases | 🚧 In Progress |
+| 2-24 | Distribution Manager | Managing distribution | 🚧 In Progress |
+| 2-25 | Deployment Pipeline | Setting up CI/CD pipeline | 🚧 In Progress |
+| 2-26 | CI/CD Module | Continuous integration and delivery | 🚧 In Progress |
+| 2-27 | Cloud Deployment | Deploying to the cloud | 🚧 In Progress |
+| 2-28 | Logging Dashboard | Visualizing logs | 🚧 In Progress |
+| 2-29 | Production Hardening | Optimizing for production | 🚧 In Progress |
+| 2-30 | Final Showcase | Showcasing the final bot | 🚧 In Progress |
+
+**▶️ Watch on YouTube:** [BMAD for Python Playlist](https://www.youtube.com/playlist?list=PLe0I4YPEgcpw)
+
+### 🎬 Series 5: Shorts 🚧 In Progress
+
+Learn in short concise videos some hacks for your PC or learn how to optimize your workflow. This channel will fill as we go along!
+
+| Episode | Title | Focus | Duration |
+|---------|-------|-------|----------|
+| 5-1 | VS Code Hack | Setting your environment | 50s-1m |
+| 5-2 |  |  |  |
 ---
 
 ### 📂 Repository Structure
@@ -33,7 +82,7 @@ Learn how to build software using AI agents and structured workflows.
 ```
 YTlearning/
 ├── 1-bmad-for-python/           ← 11 complete episodes (scripts, code, resources)
-├── 2-real-projects/             ← Coming soon
+├── 2-real-projects/             ← Started (30 episodes in total to come!)
 ├── 3-crypto/                    ← Coming soon
 ├── 4-tutorials/                 ← Coming soon
 ├── 5-shorts/                    ← Coming soon
@@ -69,7 +118,7 @@ Each episode folder contains:
 
 **Access on GitHub:**
 ```
-https://github.com/NexusBT2026/YTlearning/tree/main/1-bmad-for-python
+https://github.com/NexusBT2026/YTlearning/tree/master/1-bmad-for-python
 ```
 
 ---
@@ -238,7 +287,7 @@ Created for developers who want to master AI-driven development workflows.
 
 **YouTube Channel:** [YTlearning](https://www.youtube.com/@kellyvanhole/playlists)
 
-**GitHub:** [@NexusBT2026](https://github.com/NexusBT2026)
+**GitHub:** [@NexusBT2026](https://github.com/NexusBT2026/YTlearning)
 
 ---
 
