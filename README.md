@@ -36,8 +36,8 @@ To finally have a full bot with logging, error handling, and full data source in
 |---------|-------|-------|----------|
 | 2-1 | Reusable API | Building reusable API modules | 6-7 min. |
 | 2-2 | Websocket Client | Building a websocket client | 7-8 min. |
-| 2-3 | Data Collector | Building a data collector module | 🚧 In Progress |
-| 2-4 | Strategy Engine | Implementing trading strategies | 🚧 In Progress |
+| 2-3 | Data Collector | Building a data collector module | 19-20 min. |
+| 2-4 | Strategy Engine | Implementing trading strategies | 14-15 min. |
 | 2-5 | Building a Real-Time Python Dashboard | Real-time data visualization | 🚧 In Progress |
 | 2-6 | Automation Engine | Automating tasks and workflows | 🚧 In Progress |
 | 2-7 | Notification System | Setting up notifications | 🚧 In Progress |
